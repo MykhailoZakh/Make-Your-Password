@@ -16,23 +16,23 @@ let specialCharacters = [`!`, `"`, `#`, `$`, `%`, `&`, `'`, `(`, `)`, `*`, `+`, 
 // }
 // Write password to the #password input
 function writePassword() {
-  // Add window prompt to ask length of the password 8-128 
+  // Add  prompt window to ask length of the password 8-128 
   let passwordLength = window.prompt(`What is your password length? Chose from 8 to 128.`);
   // Logic to check if password length is acceptable
   if ((parseInt(passwordLength) < 8) || (parseInt(passwordLength) > 128)) {
   window.alert(`Wrong Password Length. Please chose from 8 to 128!! 🙌📑`);
   return;
 }
-  // Add window confirm for Upper Case
+  // Add confirm window for Upper Case
   let hasCapitalLetters = window.confirm(`Do you want Capital Letters in your password?`);
 
-  // Add window confirm for Lower Case 
+  // Add confirm window for Lower Case 
   let hasLowerCaseLetters = window.confirm(`Do you want Lower Case Letters in your password?`);
 
-  // Add window confirm for Numeric 
+  // Add confirm window for Numeric 
   let hasNumeric = window.confirm(`Do you want Numbers in your password?`);
 
-  // Add windor confirm for Special Characters
+  // Add confirm window for Special Characters
   let hasSecialCharacters = window.confirm(`Do you want Special Characters in your password?`);
 
   // Logic to check if user choose at least one condition
@@ -44,6 +44,7 @@ function writePassword() {
   // console.log(passwordLength, hasCapitalLetters, hasLowerCaseLetters, hasNumeric, hasSecialCharacters);
 
   // var password = generatePassword();
+  
   let newPasswordArray = [];
   let newPassword = ``;
   //  Loop to check what kind of symbols need to be included in password
