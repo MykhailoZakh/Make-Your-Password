@@ -13,12 +13,12 @@ I made a JS code base for Password Generator web application. I added popout win
 
 In this section I provided screenshots of the Deployed Website Application.
 
-<!-- ![alt text](assets/images/screenshot1.jpg "First Screenshot") -->
-![alt text](assets/images/11.png "Second Screenshot")
-<!-- ![alt text](assets/images/screenshot3.jpg "Third Screenshot")
-![alt text](assets/images/screenshot4.jpg "Fourth Screenshot")
-![alt text](assets/images/screenshot5.jpg "Fifth Screenshot")
-![alt text](assets/images/screenshot6.jpg "Sixth Screenshot") -->
+![alt text](assets/images/screenshot1.jpg "First Screenshot")
+![alt text](Assets/images/screenshot2.jpg "Second Screenshot")
+![alt text](Assets/images/screenshot3.jpg "Third Screenshot")
+![alt text](Assets/images/screenshot4.jpg "Fourth Screenshot")
+![alt text](Assets/images/screenshot5.jpg "Fifth Screenshot")
+![alt text](Assets/images/screenshot6.jpg "Sixth Screenshot")
 
 ## Links
 

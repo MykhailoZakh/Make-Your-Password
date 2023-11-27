@@ -37,7 +37,7 @@ function writePassword() {
 
   // Logic to check if user choose at least one condition
   if((!hasCapitalLetters && !hasLowerCaseLetters) && (!hasNumeric && !hasSecialCharacters)) {
-    window.alert(`You need to chose at least one condition to create Your Password!! 🤷‍♂️🤷‍♀️ Please try again! 😊`)
+    window.alert(`You need to chose at least one condition to create Your Password!! 📑 Please try again! 😊`)
     return ;
   }
 
